@@ -1,0 +1,28 @@
+package com.springboot.mysql.entity;
+
+public class UseWater {
+	
+	private Integer id;
+	private String container;
+	private Integer quantity;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getContainer() {
+		return container;
+	}
+	public void setContainer(String container) {
+		this.container = container;
+	}
+	public Integer getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
+	
+
+}

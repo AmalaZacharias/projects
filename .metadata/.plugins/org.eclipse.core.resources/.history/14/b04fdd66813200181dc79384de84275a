@@ -1,0 +1,12 @@
+package com.springthymeleaf.main;
+
+import org.springframework.boot.SpringApplication;
+
+public class SpringBootThymeleafMainApplication {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SpringApplication.run(SpringBootThymeleafMainApplication.class, args);
+	}
+
+}

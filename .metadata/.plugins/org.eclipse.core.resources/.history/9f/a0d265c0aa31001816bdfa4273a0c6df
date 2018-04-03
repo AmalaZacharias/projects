@@ -1,0 +1,5 @@
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost/watertank
+server.port=9000
+spring.datasource.username= root
+spring.datasource.password=

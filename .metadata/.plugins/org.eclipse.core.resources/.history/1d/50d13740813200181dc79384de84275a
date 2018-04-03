@@ -1,0 +1,5 @@
+package com.springthymeleaf.main;
+
+public class SpringBootThymeleafMainApplication {
+
+}

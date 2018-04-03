@@ -1,0 +1,12 @@
+package com.springboot.mysql.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringController {
+	
+	public String welcome() {
+		return "Welcome to free snack hub!";
+	}
+
+}

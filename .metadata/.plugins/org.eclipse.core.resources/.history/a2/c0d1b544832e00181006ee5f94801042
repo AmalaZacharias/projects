@@ -1,0 +1,35 @@
+package com.springmvc.hibernate;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+
+@Repository("employeedao")
+public class EmployeeDAO {
+	
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	
+	public void saveEmployee(EmployeeEntity employeeEntity) {
+		// TODO Auto-generated method stub
+		
+		sessionFactory.openSession().saveOrUpdate(employeeEntity);		
+	}
+
+
+	public List<EmployeeBean> viewEmployees() {
+		// TODO Auto-generated method stub
+		Session session = null;
+		session = sessionFactory.openSession();
+		List<EmployeeBean> list = Query.query("from EmployeeEntity")
+		
+		return list;
+	}
+
+}

@@ -1,0 +1,17 @@
+127.0.0.1 - - [26/Mar/2018:11:48:32 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:48:43 +0530] "GET /004_SpringMVC_Hibernate/ HTTP/1.1" 200 367
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:48:49 +0530] "GET /004_SpringMVC_Hibernate/employeeForm.html HTTP/1.1" 200 934
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:49:01 +0530] "POST /004_SpringMVC_Hibernate/saveEmployee.html HTTP/1.1" 200 400
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:49:03 +0530] "GET /004_SpringMVC_Hibernate/employeeForm.html HTTP/1.1" 200 934
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:49:33 +0530] "POST /004_SpringMVC_Hibernate/saveEmployee.html HTTP/1.1" 200 400
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:49:35 +0530] "GET /004_SpringMVC_Hibernate/viewEmployee.html HTTP/1.1" 200 2508
+127.0.0.1 - - [26/Mar/2018:11:56:41 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:56:46 +0530] "GET /004_SpringMVC_Hibernate/ HTTP/1.1" 200 367
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:11:57:03 +0530] "GET /004_SpringMVC_Hibernate/viewEmployee.html HTTP/1.1" 200 2508
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:12:02:31 +0530] "GET /004_SpringMVC_Hibernate/getEmployee.html HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:12:02:32 +0530] "GET /004_SpringMVC_Hibernate/getEmployee.html HTTP/1.1" 404 949
+127.0.0.1 - - [26/Mar/2018:12:04:06 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:12:04:11 +0530] "GET /004_SpringMVC_Hibernate/ HTTP/1.1" 200 367
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:12:04:16 +0530] "GET /004_SpringMVC_Hibernate/viewEmployee.html HTTP/1.1" 200 3272
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:12:04:19 +0530] "GET /004_SpringMVC_Hibernate/deleteEmployee.html?employeeId=1 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:12:04:19 +0530] "GET /004_SpringMVC_Hibernate/viewEmployee.html HTTP/1.1" 200 3020

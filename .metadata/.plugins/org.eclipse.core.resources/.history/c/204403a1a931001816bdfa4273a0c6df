@@ -1,0 +1,7 @@
+spring.driver=com.mysql.jdbc.Driver
+spring.url=jdbc:mysql://localhost:3306/watertank
+spring.username=root
+spring.password=
+spring.dialect=org.hibernate.dialect.MySQLDialect
+spring.show_sql=true
+spring.hbm2ddl.auto=update

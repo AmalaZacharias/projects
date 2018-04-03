@@ -1,0 +1,9 @@
+package org.springboot.mysql.repository;
+
+import java.io.Serializable;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface WaterRepository extends CrudRepository <Serializable, Integer>{
+
+}
